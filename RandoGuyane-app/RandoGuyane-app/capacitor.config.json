@@ -1,0 +1,20 @@
+{
+  "appId": "fr.guyane.randoguyane",
+  "appName": "RandoGuyane",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "launchAutoHide": true,
+      "backgroundColor": "#27500A",
+      "showSpinner": false,
+      "androidScaleType": "CENTER_CROP"
+    },
+    "Geolocation": {
+      "permissions": ["location"]
+    }
+  }
+}
